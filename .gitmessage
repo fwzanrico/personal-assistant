@@ -1,0 +1,45 @@
+# <type>(<scope>): <subject>
+#
+# <body>
+#
+# <footer>
+
+# --- COMMIT END ---
+# Type can be:
+#    feat     (new feature)
+#    fix      (bug fix)
+#    docs     (changes to documentation)
+#    style    (formatting, missing semi colons, etc; no code change)
+#    refactor (refactoring production code)
+#    test     (adding missing tests, refactoring tests; no production code change)
+#    chore    (updating grunt tasks etc; no production code change)
+#    perf     (performance improvements)
+#    ci       (changes to CI configuration files and scripts)
+#    build    (changes that affect the build system or external dependencies)
+#    revert   (reverts a previous commit)
+#
+# Scope is optional and can be:
+#    frontend, backend, api, auth, ui, db, config, etc.
+#
+# Subject line rules:
+#    - Use imperative mood ("Add feature" not "Added feature")
+#    - Don't capitalize first letter
+#    - No period at the end
+#    - Keep under 50 characters
+#
+# Body rules:
+#    - Wrap at 72 characters
+#    - Explain what and why, not how
+#    - Separate from subject with blank line
+#
+# Footer rules:
+#    - Reference issues: "Closes #123", "Fixes #456"
+#    - Breaking changes: "BREAKING CHANGE: description"
+#    - Co-authored-by: Name <email@example.com>
+#
+# Examples:
+#    feat(auth): add JWT token validation
+#    fix(frontend): resolve login form validation error
+#    docs: update API documentation for user endpoints
+#    refactor(backend): simplify task creation logic
+#    test(auth): add unit tests for login functionality

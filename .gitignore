@@ -1,0 +1,3 @@
+frontend/node_modules
+backend/.backend_venv
+# Ignore all node_modules directories in the project
